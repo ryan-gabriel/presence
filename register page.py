@@ -54,7 +54,7 @@ def main(page:ft.Page):
                     ft.ElevatedButton("Buat Akun",color=ft.colors.WHITE,bgcolor="#94D3E4",width=250,height=50),
                 ],alignment="center"),
                 width=1000,
-                top = 600,
+                top = 630,
                 right=50,
                 left=50,
             ),

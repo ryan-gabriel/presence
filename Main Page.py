@@ -73,7 +73,7 @@ def main(page:ft.Page):
                         ft.Text("Batas Absen",color="#00BAE9"),
                     ],alignment = "center"),
                     ft.Row([
-                        ft.Text("12:15 ",color="#00BAE9"),
+                        ft.Text("12:15 ",color="#00BAE9"), #place holder
                     ],alignment = "center",),
                     ft.Row([
                         ft.ElevatedButton(
@@ -409,10 +409,11 @@ def main(page:ft.Page):
     
     profile = ft.Stack(
                 [
-                    ft.Text("profile")
+                    ft.Container(
+                    )
                 ],
                 expand=True,
-                width=10000
+                width=page.width
             )
     profile.visible = False
 
